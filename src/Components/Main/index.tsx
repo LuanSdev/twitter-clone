@@ -1,6 +1,18 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './styles';
+import ProfilePage from '../ProfilePage';
+
+import {
+  Container,
+  Header,
+  BackIcon,
+  ProfileInfo,
+  BottomMenu,
+  HomeIcon,
+  SearchIcon,
+  EmailIcon,
+  BellIcon,
+} from './styles';
 
 const Main: React.FC = () => {
   return (
@@ -14,16 +26,16 @@ const Main: React.FC = () => {
           <strong>Luan Gabriel</strong>
           <span>1000 tweets</span>
         </ProfileInfo>
-
-        {/* <ProfilePage/> */}
-
-        {/* <BottomMenu>
-          <HomeIcon />
-          <SearchIcon />
-          <BellIcon />
-          <EmailIcon />
-        </BottomMenu> */}
       </Header>
+
+      <ProfilePage />
+
+      <BottomMenu>
+        <HomeIcon className="active" />
+        <SearchIcon />
+        <BellIcon />
+        <EmailIcon />
+      </BottomMenu>
     </Container>
   );
 };
