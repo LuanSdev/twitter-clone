@@ -29,14 +29,15 @@ export default createGlobalStyle`
 
   :root{
     --primary: #000;
-    --secondary: #15181c;
-    --search: #d9d9d9;
-    --gray: #7a7a7a;
-    --outline: #2f3336;
-    --retweet: #00c06b;
-    --like: #e8265e;
-    --twitter: #33a1f2;
-    --twitter-dark-mode: #011017;
-    --twitter-light-hover: #2c8ed6;
+    --secondary: #15181C;
+    --search: #202327;
+    --white: #D9D9D9;
+    --gray: #7A7A7A;
+    --outline: #2F3336;
+    --retweet: #00C06B;
+    --like: #E8265E;
+    --twitter: #33A1F2;
+    --twitter-dark-hover: #011017;
+    --twitter-light-hover: #2C8ED6;
   }
 `;
